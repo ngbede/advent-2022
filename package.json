@@ -1,0 +1,21 @@
+{
+  "name": "advent-2022",
+  "version": "1.0.0",
+  "description": "Advent of code 2022, solutions",
+  "main": "index.js",
+  "author": "ngbede",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf build && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
