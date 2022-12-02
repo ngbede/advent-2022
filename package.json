@@ -6,7 +6,9 @@
   "author": "ngbede",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf build && tsc"
+    "build": "rimraf build && tsc",
+    "day1": "cd build && cd ../ && yarn run build && cd build && node day-1.js",
+    "day2": "cd build && cd ../ && yarn run build && cd build && node day-2.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
