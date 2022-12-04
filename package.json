@@ -9,7 +9,8 @@
     "build": "rimraf build && tsc",
     "day1": "cd build && cd ../ && yarn run build && cd build && node day-1.js",
     "day2": "cd build && cd ../ && yarn run build && cd build && node day-2.js",
-    "day3": "cd build && cd ../ && yarn run build && cd build && node day-3.js"
+    "day3": "cd build && cd ../ && yarn run build && cd build && node day-3.js",
+    "day4": "cd build && cd ../ && yarn run build && cd build && node day-4.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
